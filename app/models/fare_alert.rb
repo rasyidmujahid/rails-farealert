@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'rufus-scheduler'
+# require 'rufus-scheduler'
 require 'typhoeus'
 require 'json'
 require 'rest-client'

@@ -1,6 +1,6 @@
 namespace :farealert do
   desc "Fare alert"
-  task :do do
+  task :do => :environment do
     FareAlert.perform
   end
 end
