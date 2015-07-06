@@ -41,6 +41,6 @@ gem 'spring',        group: :development
 gem 'typhoeus'
 gem 'json'
 gem 'rest-client'
-gem 'whenever'
-gem 'capistrano'
+gem 'whenever', require: false
+gem 'capistrano', require: false
 gem 'capistrano-rvm'
