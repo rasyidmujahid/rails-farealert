@@ -57,7 +57,7 @@ class FareAlert
 
   def self.perform
     %w(14-07-2015 15-07-2015 16-07-2015).each do |departure|
-      url = "http://www.traveloka.com/fullsearch?ap=JKTA.SUB&dt=#{departure}.NA&ps=1.0.0"
+      url = "http://www.traveloka.com/fullsearch?ap=CGK.SUB&dt=#{departure}.NA&ps=1.0.0"
       title   = "#{departure} CGK-SUB Alert #{DateTime.now.strftime '%d-%m-%Y %H:%M:%S'}"
 
       content = []
