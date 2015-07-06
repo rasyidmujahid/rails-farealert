@@ -18,6 +18,6 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
-every 2.hours do
-  rake "farealert:do"
-end
+# every 2.hours do
+#   rake "farealert:do"
+# end

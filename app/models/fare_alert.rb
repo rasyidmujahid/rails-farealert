@@ -26,7 +26,7 @@ class FareAlert
   end
 
   def self.get_kimono(departure)
-    kimoni = 'https://www.kimonolabs.com/api/dzx18ncu?apikey=5f75d647c47709b5398f763bedab0e86'
+    kimoni = 'https://www.kimonolabs.com/api/c7g15x2y?apikey=5f75d647c47709b5398f763bedab0e86'
     url = "#{kimoni}&dt=#{departure}.NA"
     p url
 
