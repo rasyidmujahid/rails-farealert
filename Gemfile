@@ -41,5 +41,6 @@ gem 'spring',        group: :development
 gem 'typhoeus'
 gem 'json'
 gem 'rest-client'
-gem 'whenever', :require => false
-gem 'capistrano', '~> 3.4.0'
+gem 'whenever'
+gem 'capistrano'
+gem 'capistrano-rvm'

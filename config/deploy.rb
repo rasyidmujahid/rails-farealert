@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'rails_farealert'
-set :repo_url, 'git@github.com:rasyidmujahid/rails_farealert.git'
+set :repo_url, 'https://github.com/rasyidmujahid/rails-farealert.git'
 
 set :ssh_options, {
   forward_agent: true,
@@ -10,9 +10,6 @@ set :ssh_options, {
 }
 
 set :branch, :master
-set :log_level, :debug
-set :user, 'deploy'
-set :use_sudo, false
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
